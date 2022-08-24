@@ -1,0 +1,9 @@
+package Task;   
+import java.lang.annotation.*;
+@Target(ElementType.FIELD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ChangeValue {
+
+	public String value() default"";
+
+}
