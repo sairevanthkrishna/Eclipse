@@ -1,4 +1,4 @@
-package Jaxb.Jaxb;
+package jsondata.jsondata;
 
 public class jsongetterand {
 private int empid;
