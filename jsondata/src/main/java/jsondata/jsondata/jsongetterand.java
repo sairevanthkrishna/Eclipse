@@ -22,5 +22,10 @@ public int getEmpsalary() {
 public void setEmpsalary(int empsalary) {
 	this.empsalary = empsalary;
 }
+@Override
+public String toString() {
+	return "jsongetterand [empid=" + empid + ", empname=" + empname + ", empsalary=" + empsalary + "]";
+}
+
 
 }
